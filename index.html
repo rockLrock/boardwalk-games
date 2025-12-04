@@ -18,9 +18,50 @@
     integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link href="assets/css/style.css" rel="stylesheet">
 </head>
-<body>
-    <!--navigation-->
-    <div>navigation</div>
+<!--classes on body set to work with mt-auto on footer to ensure it always stays at the bottom of the page-->
+<body class="d-flex flex-column min-vh-100">
+    
+    <!--Navigation-->
+    <div>Navigation</div>
+
+    <!--header with carousel-->
+    <header class="container">
+        <div class="row">
+            <div class="row col-12 col-xl-6">Boardwalk Games Intro text section</div>
+            <div class="row col-12 col-xl-6">Carousel</div>
+        </div>
+    </header>
+
+    <!--main element to hold all key sections of the home page. It is not part of the grid structure.-->
+    <main>
+        <!--services section-->
+        <section class="container">
+            <div class="row ">
+                    <div class="col-12"> services section heading </div>
+                    
+                    <div class="col-12 col-md-6 col-xl-3">services card</div>
+                    <div class="col-12 col-md-6 col-xl-3">services card</div>
+                    <div class="col-12 col-md-6 col-xl-3">services card</div>
+                    <div class="col-12 col-md-6 col-xl-3">services card</div>
+                
+            </div>
+        </section>
+    </main>
+
+    <!--footer/contact section-->
+    <!--mt-auto added to push footer down to the bottom of the page-->
+    <footer class="mt-auto">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12">contact section heading</div>
+                <!--contact infor-->
+                <div class="col-12 col-md-6 col-xl-4">contact infor & social links</div>
+                <!--Opening times-->
+                <div class="col-12 col-md-6 col-xl-4">Opening times</div>
+            </div
+        </div>
+
+    </footer>
 
      <!--font awesome kit -->
     <script src="https://kit.fontawesome.com/23f832c2f0.js" crossorigin="anonymous"></script>
