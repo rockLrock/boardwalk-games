@@ -14,6 +14,10 @@
 }
 
 /* Global styles.*/
+.section {
+    margin: 2rem 0;
+}
+
 
 body {
     font-family: var(--primary-font);
@@ -22,6 +26,7 @@ body {
 h1,h2,h3 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
+    text-transform: uppercase;
 }
 
 .sub-heading-color {
@@ -31,10 +36,16 @@ h1,h2,h3 {
 /*navbar */
 #navbar {
     background-color: var(--primary-color);
+    
 }
 
 #navbar .logo {
     width: 30;
+}
+
+/*header*/
+#header .lead{
+    font-family: var(--secondary-font);
 }
 
 /* css temporary for testing.
@@ -48,7 +59,3 @@ h1,h2,h3 {
     background-color: lightgray;
  }
 */
-/* Navbar alignment */
- .navbar-nav {
-    justify-content: flex-end;
- }
