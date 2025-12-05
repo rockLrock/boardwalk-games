@@ -28,6 +28,15 @@ h1,h2,h3 {
     color: var(--highlight-color);
 }
 
+/*navbar */
+#navbar {
+    background-color: var(--primary-color);
+}
+
+#navbar .logo {
+    width: 30;
+}
+
 /* css temporary for testing.
 .container, 
 .row {
